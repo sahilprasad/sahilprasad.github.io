@@ -1,0 +1,125 @@
+nav#nav_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+
+ul#nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+ul#nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+p#name {
+    display: block;
+    font-family: 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    font-size: 90px;
+    text-align: center;
+/*    width: 50%;*/
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 0;
+}
+
+div#home {
+    display: inline-block;
+    text-align: center;
+}
+
+div#ironman {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+div#short-description-div {
+    float: left;
+    height: 180px;
+    text-align: left;
+    max-width: 500px;
+}
+
+a.main_link {
+    text-decoration: none;
+    color: #F13224;
+    cursor: pointer;
+}
+
+a#about_link {
+    text-decoration: none;
+    color: #EFCE0B;
+    cursor: pointer;
+}
+
+div#main_content {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 250px;
+}
+
+.section {
+    min-height: 1000px; /* to give the section-ified effect to the page */
+    width: 100%;
+}
+
+div.container {
+    display: block;
+    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    font-size: 43px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul#pixability_description li {
+    padding-bottom: 50px;
+}
+
+ul.explist li ul {
+    display: none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+a.course {
+    color: black;
+/*    text-decoration: none;*/
+    cursor: pointer;
+}
+
+/*
+ul#language_list {
+    padding: 0;
+}
+*/
+
+ul.horizontal_list {
+    text-align: left;
+}
+
+ul.horizontal_list li {
+    display: inline;
+/*    text-align: center;*/
+    padding-right: 40px;
+}
+
+ul.horizontal_list li:before {
+  content: "• ";
+}
+
+h1, h2, h3, h4, h5, a, p {
+    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+}
